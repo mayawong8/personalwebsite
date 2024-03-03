@@ -1,5 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css"
+import React, {useState, useEffect} from 'react'
+
 
 export default function Home() {
   return (
@@ -11,7 +13,10 @@ export default function Home() {
       </Head>
     <main>
       <section className="background-section-1 flex justify-center items-center h-screen">
-          <h1 className="text-white font-mono text-4xl">Hi, I'm Maya Wong</h1>
+        <div>
+          <h1 className="typewriter">Hi, I'm Maya Wong</h1>
+        </div>
+        
       </section>
     </main>
     </div>
