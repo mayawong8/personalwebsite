@@ -21,6 +21,12 @@ a {
   background-position: center;
 }
 
+.background-section-2 {
+  background-image: url("../public/bg-2.png");
+  background-size: cover;
+  background-position: center;
+}
+
 .typewriter {
   color: white;
   font-size: 40px;
@@ -55,6 +61,6 @@ a {
   }
 
   50% {
-    border-color: orange;
+    border-color: white;
   }
 }
